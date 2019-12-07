@@ -328,7 +328,20 @@ html {
   right: 0;
 }
 
-.content {
-  display: block;
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  padding: 1.5rem;
 }
+
+.footer h3 {
+  border-top: none;
+}
+
+.content {
+  display: flex;
+}
+
 }
