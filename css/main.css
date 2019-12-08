@@ -133,15 +133,11 @@ nav a:hover {
   border-radius: 15px;
 }
 
-.card2 {
+.card2,
+.card3 {
   display: block;
   justify-content: center;
-  padding: 1.5rem;
-}
-
-.card2body {
-  padding: 1rem 0;
-  text-align: center;
+  padding: 4rem;
 }
 
 .card2body > h2 {
@@ -168,8 +164,10 @@ nav a:hover {
   padding: 1.5rem;
 }
 
-.card3body {
-  padding: 1rem 0;
+.card3body,
+.card2body {
+  padding-top: 4rem;
+  padding-bottom: 0;
   text-align: center;
 }
 
