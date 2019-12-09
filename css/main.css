@@ -123,6 +123,7 @@ nav a:hover {
 }
 
 .card1 {
+  padding: 0;
   display: flex;
   position: relative;
   justify-content: center;
