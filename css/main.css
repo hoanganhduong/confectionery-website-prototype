@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .card1body {
-  padding:.5rem;
+  padding: .5rem;
   position: absolute;
   bottom: 2.5rem;
   text-align: center;
@@ -249,10 +249,11 @@ footer a:hover {
 
 @media only screen and (min-width: 25em) {
 
-html {
+  html {
     font-size: 100%;
-    line-height:  1.3;
+    line-height: 1.3;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -282,71 +283,73 @@ html {
   nav a {
     display: inline-block;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-html {
-  font-size: 120%;
-  line-height: 1.5;
-}
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
-.card1body {
-  right: 20px;
-  bottom: 250px;
-}
+  .card1body {
+    right: 20px;
+    bottom: 250px;
+  }
 
-.card1body > h2, p {
-  margin: 2rem;
-}
+  .card1body > h2, p {
+    margin: 2rem;
+  }
 
-.christmaschoco {
-  width: 60%;
-  display: block;
-}
+  .christmaschoco {
+    width: 60%;
+    display: block;
+  }
 
-.card2body {
-  width: 40%;
-  background-color: beige;
-  display: block;
-}
+  .card2body {
+    width: 40%;
+    background-color: beige;
+    display: block;
+  }
 
-.card2 {
-  padding: 1rem 0;
-  display: flex;
-}
+  .card2 {
+    padding: 1rem 0;
+    display: flex;
+  }
 
-.card3 {
-  padding: 2rem 0;
-  display: flex;
-}
+  .card3 {
+    padding: 2rem 0;
+    display: flex;
+  }
 
-.card3body {
-  width: 40%;
-  background-color: beige;
-  display: block;
-}
+  .card3body {
+    width: 40%;
+    background-color: beige;
+    display: block;
+  }
 
-.recipe {
-  width: 60%;
-  display: block;
-}
+  .recipe {
+    width: 60%;
+    display: block;
+  }
 
-.footer {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  border-top: 2px solid black;
-  padding: 1.5rem;
-}
+  .footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding: 1.5rem;
+  }
 
-.footer h3 {
-  border-top: none;
-}
+  .footer h3 {
+    border-top: none;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
@@ -370,7 +373,6 @@ html {
     bottom: 250px;
     width: inherit;
     background: none;
-
   }
 
   .christmaschoco,
