@@ -130,9 +130,9 @@ nav a:hover {
 }
 
 .card1body {
-  padding: 2.5rem;
+  padding: 1rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: .5rem;
   text-align: center;
 }
 
