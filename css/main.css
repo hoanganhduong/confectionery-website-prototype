@@ -94,6 +94,10 @@ nav a:hover {
   cursor: pointer;
 }
 
+.button {
+  font-size: 1rem;
+}
+
 .searchicon {
   display: block;
   font-size: 20px;
@@ -133,11 +137,10 @@ nav a:hover {
   border-radius: 15px;
 }
 
-.card2,
-.card3 {
+.card2 {
   display: block;
   justify-content: center;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .card2body > h2 {
@@ -158,16 +161,29 @@ nav a:hover {
   border-radius: 15px;
 }
 
-.card3 {
+.christmaschoco {
   display: block;
-  justify-content: center;
-  padding: 1.5rem;
 }
 
-.card3body,
-.card2body {
+.recipe {
+  display: table-header-group;
+}
+
+.card3 {
+  display: table;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.card3body {
   padding-top: 4rem;
   padding-bottom: 0;
+  text-align: center;
+  display: table-footer-group;
+}
+
+.card2body {
+  padding: 0;
   text-align: center;
 }
 
@@ -280,50 +296,35 @@ html {
 }
 
 .christmaschoco {
-  max-width: 60%;
+  width: 60%;
   display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .card2body {
-  max-width: 40%;
+  width: 40%;
   background-color: beige;
   display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
 }
 
 .card2 {
-  padding: 0;
-  position: relative;
+  padding: 1rem 0;
+  display: flex;
 }
 
 .card3 {
-  position: relative;
+  padding: 2rem 0;
+  display: flex;
 }
 
 .card3body {
-  max-width: 40%;
+  width: 40%;
   background-color: beige;
   display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
 }
 
 .recipe {
-  max-width: 60%;
+  width: 60%;
   display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
 }
 
 .footer {
@@ -338,8 +339,38 @@ html {
   border-top: none;
 }
 
-.content {
-  display: flex;
 }
+
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 130%;
+  }
+
+  .card2,
+  .card3 {
+    position: relative;
+  }
+
+  .card2body {
+    position: absolute;
+    left: 20px;
+    bottom: 250px;
+    width: inherit;
+    background: none;
+  }
+
+  .card3body {
+    position: absolute;
+    right: 20px;
+    bottom: 250px;
+    width: inherit;
+    background: none;
+
+  }
+
+  .christmaschoco,
+  .recipe {
+    width: 100%;
+  }
 
 }
